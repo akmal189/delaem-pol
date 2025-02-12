@@ -1,6 +1,9 @@
 .step-form {
     background: linear-gradient(180deg, rgba(#000, .85) 0%, rgba(#000, .85) 100%), url('../img/step-form-bg.png') 50%/cover no-repeat;
     padding-bottom: 117px;
+    @media all and (max-width: 980px) {
+        padding-bottom: 40px;       
+    }
     img {
         max-width: 100%;
     }
@@ -104,6 +107,7 @@
             padding-left: 0;
             font-size: 1.125rem;
             margin-bottom: 15px;
+            line-height: 22px;
         }
     }
     &__step-body {
@@ -194,6 +198,9 @@
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
+        @media all and (max-width: 980px) {
+            gap: 10px;
+        }
     }
     &__list-item {
         padding: 22px 24px;
@@ -208,6 +215,10 @@
         background: #454545;
         border-radius: 8px;
         transition: all .3s ease;
+        @media all and (max-width: 980px) {
+            width: 100%;
+            padding: 10px 20px;
+        }
         &:hover {
             border-color: #fff;
         }
@@ -244,14 +255,23 @@
             font-weight: 700;
             line-height: 27.32px;
             font-family: 'Manrope', sans-serif;
+            @media all and (max-width: 980px) {
+                font-size: 0.8rem;
+            }
         }
     }
     &__form {
         max-width: 322px;
         padding-left: 33px;
+        @media all and (max-width: 980px) {
+            padding: 0;
+        }
         .form-field {
             position: relative;
             margin-bottom: 20px;
+            &.hidden-form-results {
+                display: none;
+            }
             input[type="text"] {
                 border: 0.8px solid #FFFFFF1A;
                 outline: none;
@@ -267,15 +287,18 @@
                 font-family: 'Manrope', sans-serif;
                 width: 100%;
                 letter-spacing: -0.3px;
+                @media all and (max-width: 980px) {
+                    padding: 10px 20px;
+                    padding-left: 50px;
+                    font-size: 0.8rem;
+                }
                 &:hover {
                     border-color: #fff;
                 }
                 &::placeholder {
                     color: rgba(#fff, .6);
                 }
-                &.hidden-form-results {
-                    display: none;
-                }
+                
             }
             .icon {
                 font-size: 0;
@@ -283,6 +306,9 @@
                 top: calc(50% - 11px);
                 left: 30px;
                 pointer-events: none;
+                @media all and (max-width: 980px) {
+                    left: 20px;
+                }
             }
             button {
                 box-shadow: 0px 0px 32.49px 0px #FFFFFF73 inset;
@@ -303,6 +329,11 @@
                 text-align: center;
                 width: 100%;
                 box-sizing: border-box;
+                @media all and (max-width: 980px) {
+                    padding: 10px 20px;
+                    font-size: .8rem;
+                    line-height: 1.6;
+                }
                 &:hover {
                     transform: scale(1.03);
                 }
@@ -381,6 +412,7 @@
         @media all and (max-width: 980px) {
             flex-direction: row;
             align-items: center;
+            margin-bottom: 15px;
         }
     }
     &__person-image {
@@ -436,6 +468,10 @@
         background: #454554;
         margin-bottom: 20px;
         border-radius: 8px;
+        @media all and (max-width: 980px) {
+            font-size: 12px;
+            line-height: 13.8px;
+        }
     }
     &__person-contacts {
         padding: 18px;
