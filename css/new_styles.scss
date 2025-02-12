@@ -527,10 +527,36 @@
         }
     }
     &__body {
-
+        display: flex;
+        flex-wrap: wrap;
+        gap: 115px 20px;
     }
     &__item {
-
+        width: calc(33.3% - 13.34px);
+    }
+    &__item-icon {
+        width: 65px;
+        height: 65px;
+        border-radius: 8px;
+        background: #e9e9e9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    &__item-title {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 23.4px;
+        font-family: 'Manrope', sans-serif;
+        color: rgba(#000, .8);
+        .number {
+            font-weight: 800;
+            color: #DD0000;
+        }
+        .title {
+            
+        }
     }
 }
 /* work-steps END */
