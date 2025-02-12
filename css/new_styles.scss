@@ -1,3 +1,4 @@
+/* step-form BEGIN */
 .step-form {
     background: linear-gradient(180deg, rgba(#000, .85) 0%, rgba(#000, .85) 100%), url('../img/step-form-bg.png') 50%/cover no-repeat;
     padding-bottom: 117px;
@@ -502,3 +503,34 @@
         }
     }
 }
+/* step-form END */
+
+/* work-steps BEGIN */
+.work-steps {
+    padding: 60px 20px 80px;
+    box-sizing: border-box;
+    &__inner {
+
+    }
+    &__title {
+        margin-bottom: 50px;
+        font-size: 48px;
+        font-weight: 500;
+        font-family: serif;
+        font-family: 'TT Norms';
+        color: #131313;
+        @media all and (max-width: 980px) {
+            font-size: 1.5rem;
+            line-height: 24px;
+            letter-spacing: -0.3px;
+            margin-bottom: 29px;
+        }
+    }
+    &__body {
+
+    }
+    &__item {
+
+    }
+}
+/* work-steps END */
