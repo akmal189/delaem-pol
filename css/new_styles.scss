@@ -20,6 +20,27 @@
     .phone {
         font-size: 24px;
     }
+    .callback-block-item {
+        max-width: 63%;
+        flex: 0 0 63%;
+    }
+    .about {
+        /*margin-top: 50px;
+        .box_bages {
+            height: 138px;
+        }*/
+        .pic_box_1 {
+            background-size: cover;
+        }
+    }
+}
+@media all and (min-width: 981px) {
+    .service_box .right img {
+        max-width: 100%;
+    }
+    .service_box .left {
+        padding-right: 5px;
+    }
 }
 .footer_bottom ul li {
     flex: 1 0 25%;
