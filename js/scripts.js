@@ -12,7 +12,7 @@ $(function(){
         }
     });
 
-    $('.step-form__step').height(stepFormHeight);
+    //$('.step-form__step').height(stepFormHeight);
 
     $('.step-form__progress').css('width', stepFormProgress+'%')
     $('.step-form__btn a').on('click', function(){
