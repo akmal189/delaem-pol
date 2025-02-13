@@ -1,9 +1,12 @@
 .callback {
-    background-image: url('../img/pod_kluch_bg.png');
-    background-repeat: no-repeat;
-    background-position: center bottom -210px;
+    background: none;
 }
-
+.callback_work-steps {
+    background: url('../img/pod_kluch_bg.png') bottom -250px center/cover no-repeat;
+}
+main {
+    background-image: url('../img/main2.png');
+}
 /* step-form BEGIN */
 .step-form {
     background: linear-gradient(180deg, rgba(#000, .85) 0%, rgba(#000, .85) 100%), url('../img/step-form-bg.png') 50%/cover no-repeat;
