@@ -36,7 +36,7 @@ $mail->Password = 'kt4c8i8j2';
 $mail->setFrom('info@365skillfeed.ru', 'slabotochka');    
  
 // Кому
-$mail->addAddress('risingfalcon97@gmail.com', 'Иван Петров');
+$mail->addAddress('Slabotochka52@yandex.ru', 'Иван Петров');
  
 // Тема письма
 $mail->Subject = 'Сообщение с квиза';
