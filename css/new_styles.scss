@@ -622,6 +622,7 @@ body .site-header {
         font-size: 15px;
         font-weight: 500;
         line-height: 1.5;
+        display: none;
     }
     &__bottom {
         display: flex;
@@ -1514,6 +1515,13 @@ html body .serts-block {
                 }
             }
         }
+    }
+    &__success {
+        color: #131313;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.5;
+        display: none;
     }
     &__right {
         width: 41%;

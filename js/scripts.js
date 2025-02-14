@@ -84,8 +84,38 @@ $(function () {
             success: function (data) {
                 //location.href = "thankyou.html";
                 $('.step-form__step.last-step .step-form__form form').hide()
-                $('.step-form__step.last-step').addClass('form-sended')
-                $('.step-form__step.last-step').addClass('form-sended')
+                $('.step-form__success').show()
+
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+            }
+        })
+    })
+
+    $('.form-block__form form button').on('click', function (event) {
+        event.preventDefault();
+
+        let input1 = '',
+            input2 = '';
+        
+        input1 = $('.form-block__form .form-field').first().find('input').val();
+        input2 = $('.form-block__form .form-field:nth-child(2)').find('input').val();
+
+        $.ajax({
+            url: 'js/send.php',
+            method: 'post',
+            data: {
+                input1: input1,
+                input2: input2,
+            },
+            beforeSend: function () {
+                //$('.send_from').text('loading');
+            },
+            success: function (data) {
+                //location.href = "thankyou.html";
+                $('.form-block__form form').hide()
+                $('.form-block__success').show()
 
             },
             error: function (xhr, ajaxOptions, thrownError) {

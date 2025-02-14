@@ -765,6 +765,7 @@ body .site-header .menu_main {
   font-size: 15px;
   font-weight: 500;
   line-height: 1.5;
+  display: none;
 }
 .step-form__bottom {
   display: -webkit-box;
@@ -1863,6 +1864,13 @@ html body .serts-block__item-desc {
 .form-block__form form .form-field button:hover {
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
+}
+.form-block__success {
+  color: #131313;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+  display: none;
 }
 .form-block__right {
   width: 41%;
