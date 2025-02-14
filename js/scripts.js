@@ -54,7 +54,7 @@ $(function(){
         $('.step-form__form .form-field.hidden-form-results textarea').val(stepFormResults)
     })
 
-});
+}); 
 document.addEventListener('DOMContentLoaded', function(){
     [].forEach.call(document.querySelectorAll('input.phone-input'), function (input) {
             let keyCode;
