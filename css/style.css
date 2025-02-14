@@ -1521,7 +1521,45 @@ left:300px;
 .swiper {
     display: none;
 }
-
+@media all and (max-width: 980px) {
+    .mobile_mobie_ovelray {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+    }
+    .mobile_box{
+        width: 70%;
+        background: #fff;
+        padding: 20px;
+        position: absolute;
+        right: 0;
+    
+    }
+    .close {
+        position: absolute;
+        right: 20px;
+        top:20px;
+    }
+    .menu_main {
+        display: block;
+        margin-top: 50px;
+        padding: 0px;
+        justify-content: space-between;
+    }
+    .menu_main li {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .mobile_box {
+        display: block;
+    }
+    .mobile_box .soclal_head {
+        padding-left: 10px;
+    }
+}
 @media(max-width:480px) {
 
     .footer_bottom ul {
