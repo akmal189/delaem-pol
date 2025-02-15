@@ -71,7 +71,7 @@ $(function () {
         input3 = $('.step-form__form .form-field.hidden-form-results textarea').val();
 
         $.ajax({
-            url: 'js/send.php',
+            url: './js/send.php',
             method: 'post',
             data: {
                 input1: input1,
@@ -103,7 +103,7 @@ $(function () {
         input2 = $('.form-block__form .form-field:nth-child(2)').find('input').val();
 
         $.ajax({
-            url: 'js/send.php',
+            url: './js/send.php',
             method: 'post',
             data: {
                 input1: input1,
