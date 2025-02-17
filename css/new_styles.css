@@ -287,7 +287,6 @@ body .site-header .menu_main {
 
 @media all and (max-width: 980px) {
   .about {
-<<<<<<< HEAD
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -297,11 +296,6 @@ body .site-header .menu_main {
     margin-top: 75px;
   }
 }
-=======
-    padding-bottom: 40px;
-  }
-}
->>>>>>> 716356e1332564c387a6137856e9ac0f42af975b
 .about .pic_box_2 {
   display: -webkit-box;
   display: -ms-flexbox;
