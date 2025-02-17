@@ -1951,3 +1951,23 @@ html body .serts-block {
         }
     }
 }
+@media all and (max-width: 480px) {
+    .modal-form-title {
+        font-size: 28px;
+        line-height: normal;
+    }
+    .modal-title {
+        padding: 35px 20px;
+        .phone {
+            font-size: 1rem;
+            line-height: normal;
+        }
+        .horus {
+            font-size: 12px;
+            line-height: normal;
+        }
+        a img {
+            max-width: 30px;
+        }
+    }
+}

@@ -2410,3 +2410,24 @@ html body .serts-block__item-desc {
     visibility: visible;
   }
 }
+
+@media all and (max-width: 480px) {
+  .modal-form-title {
+    font-size: 28px;
+    line-height: normal;
+  }
+  .modal-title {
+    padding: 35px 20px;
+  }
+  .modal-title .phone {
+    font-size: 1rem;
+    line-height: normal;
+  }
+  .modal-title .horus {
+    font-size: 12px;
+    line-height: normal;
+  }
+  .modal-title a img {
+    max-width: 30px;
+  }
+}
