@@ -235,6 +235,7 @@ body .site-header {
 }
 .about {
     @media all and (max-width: 980px) {
+<<<<<<< HEAD
         padding-top: 40px;
         padding-bottom: 40px;
     }
@@ -243,6 +244,10 @@ body .site-header {
             margin-top: 75px;
         }
     }
+=======
+        padding-bottom: 40px;
+    }
+>>>>>>> 716356e1332564c387a6137856e9ac0f42af975b
     .pic_box_2 {
         display: flex;
         .pic-eidt-text {
