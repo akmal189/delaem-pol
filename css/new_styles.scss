@@ -1896,3 +1896,32 @@ html body .serts-block {
     }
 }
 /* site-footer END */
+
+.service_row {
+    > div {
+        display: flex;
+    }
+}
+.service_box {
+    height: auto;
+    &:hover {
+        .order_bt {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    .order_bt {
+        display: flex;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+        margin-top: 10px;
+        position: relative;
+        top: auto;
+        bottom: auto;
+        @media all and (max-width: 980px) {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}

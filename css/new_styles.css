@@ -2343,3 +2343,35 @@ html body .serts-block__item-desc {
 }
 
 /* site-footer END */
+.service_row > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service_box {
+  height: auto;
+}
+.service_box:hover .order_bt {
+  opacity: 1;
+  visibility: visible;
+}
+.service_box .order_bt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+  position: relative;
+  top: auto;
+  bottom: auto;
+}
+@media all and (max-width: 980px) {
+  .service_box .order_bt {
+    opacity: 1;
+    visibility: visible;
+  }
+}
