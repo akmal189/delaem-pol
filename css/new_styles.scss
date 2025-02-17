@@ -47,6 +47,14 @@
         padding-right: 5px;
     }
 }
+/*@media all and (max-width: 980px) {
+    .modal-title {
+
+        .phone {
+            font-size: 16px;
+        }
+    }
+}*/
 .menu_main li a {
     font-size: 18px;
     color: rgba(#000, .8);
@@ -63,7 +71,7 @@ body .site-header {
     border-bottom: 1px solid #DCDCDC;
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 101;
     @media all and (max-width: 600px) {
         padding-right: 10px;
         .img-fluid {
@@ -226,13 +234,24 @@ body .site-header {
     }
 }
 .about {
+    @media all and (max-width: 980px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .about_bages {
+        @media all and (max-width: 480px) {
+            margin-top: 75px;
+        }
+    }
     .pic_box_2 {
         display: flex;
         .pic-eidt-text {
             padding: 35px;
             display: flex;
             align-items: flex-end;
-            
+            @media all and (max-width: 980px) {
+                padding: 20px;
+            }
             .text {
                 font-size: 24px;
                 font-weight: normal;
@@ -241,6 +260,10 @@ body .site-header {
                 letter-spacing: -0.3px;
                 max-width: 311px;
                 color: #fff;
+                @media all and (max-width: 980px) {
+                    font-size: 18px;
+                    line-height: 20.7px;
+                }
             }
         }
     }
@@ -943,6 +966,9 @@ body .site-header {
 /* serts-block BEGIN */
 html body .serts-block {
     padding: 50px 0;
+    @media all and (max-width: 980px) {
+        padding: 40px 0;
+    }
     &__inner {
 
     }
