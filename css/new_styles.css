@@ -2378,6 +2378,197 @@ html body .serts-block__item-desc {
 }
 
 /* site-footer END */
+/* main-banner-block BEGIN */
+.main-banner-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main-banner-block__body {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main-banner-block__title {
+  margin: 0 0 30px;
+  text-align: center;
+  font-size: 48px;
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+  color: #000;
+  line-height: 120%;
+}
+@media all and (max-width: 550px) {
+  .main-banner-block__title {
+    font-size: 34px;
+  }
+}
+.main-banner-block__title span {
+  color: #DD0000;
+}
+.main-banner-block__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  max-width: 630px;
+  margin: 0 auto 30px;
+}
+@media all and (max-width: 550px) {
+  .main-banner-block__list {
+    gap: 10px;
+  }
+}
+.main-banner-block__item {
+  width: calc(50% - 15px);
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #DD0000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+@media all and (max-width: 550px) {
+  .main-banner-block__item {
+    width: 100%;
+    padding: 10px;
+  }
+}
+.main-banner-block__item-icon {
+  font-size: 0;
+  line-height: normal;
+  width: 70px;
+  height: 70px;
+  min-width: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media all and (max-width: 550px) {
+  .main-banner-block__item-icon {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+  }
+}
+.main-banner-block__item-icon img {
+  max-width: 100%;
+}
+.main-banner-block__item-title {
+  width: calc(100% - 85px);
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  font-family: "Manrope", sans-serif;
+  line-height: 120%;
+}
+@media all and (max-width: 550px) {
+  .main-banner-block__item-title {
+    font-size: 16px;
+  }
+}
+.main-banner-block__item-title b {
+  font-size: 22px;
+}
+@media all and (max-width: 550px) {
+  .main-banner-block__item-title b {
+    font-size: 18px;
+  }
+}
+.main-banner-block__item-title .desc {
+  font-size: 15px;
+}
+@media all and (max-width: 550px) {
+  .main-banner-block__item-title .desc {
+    font-size: 13px;
+  }
+}
+.main-banner-block__desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
+}
+.main-banner-block__desc-icon {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  font-size: 0;
+  line-height: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media all and (max-width: 550px) {
+  .main-banner-block__desc-icon {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+  }
+}
+.main-banner-block__desc-text {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+  font-family: "Manrope", sans-serif;
+  line-height: 120%;
+}
+@media all and (max-width: 550px) {
+  .main-banner-block__desc-text {
+    font-size: 18px;
+  }
+}
+.main-banner-block .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main-banner-block .container .row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+
+/* main-banner-block END */
 .service_row > div {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -1923,6 +1923,139 @@ html body .serts-block {
 }
 /* site-footer END */
 
+/* main-banner-block BEGIN */
+.main-banner-block {
+    display: flex;
+    &__body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    &__title {
+        margin: 0 0 30px;
+        text-align: center;
+        font-size: 48px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: bold;
+        color: #000;
+        line-height: 120%;
+        @media all and (max-width: 550px) {
+            font-size: 34px;
+        }
+        span {
+            color: #DD0000;
+        }
+    }
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        width: 100%;
+        max-width: 630px;
+        margin: 0 auto 30px;
+        @media all and (max-width: 550px) {
+            gap: 10px;
+        }
+    }
+    &__item {
+        width: calc(50% - 15px);
+        padding: 20px;
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #DD0000;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        @media all and (max-width: 550px) {
+            width: 100%;
+            padding: 10px;
+        }
+    }
+    &__item-icon {
+        font-size: 0;
+        line-height: normal;
+        width: 70px;
+        height: 70px;
+        min-width: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media all and (max-width: 550px) {
+            width: 50px;
+            height: 50px;
+            min-width: 50px;
+        }
+        img {
+            max-width: 100%;
+        }
+    }
+    &__item-title {
+        width: calc(100% - 85px);
+        font-size: 18px;
+        font-weight: bold;
+        color: #000;
+        font-family: 'Manrope', sans-serif;
+        line-height: 120%;
+        @media all and (max-width: 550px) {
+            font-size: 16px;
+        }
+        b {
+            font-size: 22px;
+            @media all and (max-width: 550px) {
+                font-size: 18px;
+            }
+        }
+        .desc {
+            font-size: 15px;
+            @media all and (max-width: 550px) {
+                font-size: 13px;
+            }
+        }
+    }
+    &__desc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    &__desc-icon {
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        font-size: 0;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media all and (max-width: 550px) {
+            width: 30px;
+            height: 30px;
+            min-width: 30px;
+        }
+    }
+    &__desc-text {
+        font-size: 28px;
+        font-weight: bold;
+        color: #000;
+        font-family: 'Manrope', sans-serif;
+        line-height: 120%;
+        @media all and (max-width: 550px) {
+            font-size: 18px;
+        }
+    }
+    .container {
+        display: flex;
+        .row {
+            width: 100%;
+            display: flex;
+            margin: 0;
+        }
+    }
+}
+/* main-banner-block END */
+
 .service_row {
     > div {
         display: flex;
