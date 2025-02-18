@@ -12,9 +12,9 @@ $mes = $_POST['mes'];
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
  
-require_once './PHPMailer/src/Exception.php';
-require_once './PHPMailer/src/PHPMailer.php';
-require_once './PHPMailer/src/SMTP.php';
+require_once '../PHPMailer/src/Exception.php';
+require_once '../PHPMailer/src/PHPMailer.php';
+require_once '../PHPMailer/src/SMTP.php';
  
 // Для более ранних версий PHPMailer
 //require_once '/PHPMailer/PHPMailerAutoload.php';
@@ -36,19 +36,16 @@ $mail->Password = 'kt4c8i8j2';
 $mail->setFrom('info@365skillfeed.ru', 'slabotochka');    
  
 // Кому
-$mail->addAddress('Slabotochka52@yandex.ru', 'Иван Петров');
+$mail->addAddress('pilakpost@yandex.ru', 'Иван Петров');
  
 // Тема письма
 $mail->Subject = 'Сообщение с квиза';
  
 // Тело письма
 $body = '<p><strong>
-Вопрос 1: '.$input1.'<br> 
-Вопрос 2: '.$input2.'<br> 
-Вопрос 3: '.$input3.'<br> 
-Скидка: '.$input4.'<br> 
-Куда лучше сообщить стоимость: '.$mes.'<br> 
-Телефон: '.$phone.'<br> 
+Имя: '.$input1.'<br> 
+Телефон: '.$input2.'<br> 
+Вопросы: '.$input3.'<br> 
 
 </strong></p>';
 $mail->msgHTML($body);
