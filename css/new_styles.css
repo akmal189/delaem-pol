@@ -287,7 +287,13 @@ body .site-header .menu_main {
 
 @media all and (max-width: 980px) {
   .about {
+    padding-top: 40px;
     padding-bottom: 40px;
+  }
+}
+@media all and (max-width: 480px) {
+  .about .about_bages {
+    margin-top: 75px;
   }
 }
 .about .pic_box_2 {
@@ -2372,6 +2378,7 @@ html body .serts-block__item-desc {
 }
 
 /* site-footer END */
+<<<<<<< HEAD
 /* main-banner-block BEGIN */
 .main-banner-block {
   display: -webkit-box;
@@ -2563,6 +2570,8 @@ html body .serts-block__item-desc {
 }
 
 /* main-banner-block END */
+=======
+>>>>>>> 5415b02c4197c19a9c36dc219b7e451ca480f8c2
 .service_row > div {
   display: -webkit-box;
   display: -ms-flexbox;

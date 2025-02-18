@@ -235,7 +235,13 @@ body .site-header {
 }
 .about {
     @media all and (max-width: 980px) {
+        padding-top: 40px;
         padding-bottom: 40px;
+    }
+    .about_bages {
+        @media all and (max-width: 480px) {
+            margin-top: 75px;
+        }
     }
     .pic_box_2 {
         display: flex;
@@ -1917,6 +1923,7 @@ html body .serts-block {
 }
 /* site-footer END */
 
+<<<<<<< HEAD
 /* main-banner-block BEGIN */
 .main-banner-block {
     display: flex;
@@ -2050,6 +2057,8 @@ html body .serts-block {
 }
 /* main-banner-block END */
 
+=======
+>>>>>>> 5415b02c4197c19a9c36dc219b7e451ca480f8c2
 .service_row {
     > div {
         display: flex;
