@@ -2384,6 +2384,15 @@ html body .serts-block__item-desc {
   display: -ms-flexbox;
   display: flex;
 }
+@media all and (max-width: 640px) {
+  .main-banner-block {
+    background: linear-gradient(580deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right 0px, bottom right -30px;
+    height: 440px;
+  }
+}
 .main-banner-block__body {
   width: 100%;
   display: -webkit-box;
@@ -2446,6 +2455,11 @@ html body .serts-block__item-desc {
       -ms-flex-align: center;
           align-items: center;
   gap: 15px;
+}
+@media all and (max-width: 640px) {
+  .main-banner-block__item:nth-child(1) {
+    display: none;
+  }
 }
 @media all and (max-width: 550px) {
   .main-banner-block__item {
